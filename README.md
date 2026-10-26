@@ -3,7 +3,7 @@
 <h3>Register Number: 212225100011</h3>
 
 
-<h3>AIM:</h3>
+#AIM:
 <br>
 <p>To find the PEAS description for the given AI problem and develop an AI agent.</p>
 <br>
@@ -29,7 +29,7 @@
   </tr>
 </table>
 <hr>
-<H3>DESIGN STEPS</H3>
+#DESIGN STEPS
 <h3>STEP 1:Identifying the input:</h3>
 <p>Temperature from patients, Location.</p>
 <h3>STEP 2:Identifying the output:</h3>
@@ -40,7 +40,9 @@
 <p>Treat unhealthy patients in each room. And check for the unhealthy patients in random room</p>
 <h3>STEP 5:</h3>
 <p>Measure the performance parameters: For each treatment performance incremented, for each movement performance decremented</p>
+                                                                                                                              
 #PROGRAM 
+
 ```
 class Thing:  
     """ 
@@ -282,7 +284,9 @@ if   __name__ == "__main__":
         print("AgentLocation : {0}".format(agent.location))  
         print("Performance : {0}".format(agent.performance)) 
 ```
+
 #OUTPUT
 <img width="632" height="312" alt="image" src="https://github.com/user-attachments/assets/0d85f870-1569-433c-b93f-1b674ecc9693" />
+
 #RESULT
 Thus the developing AI Agent with PEAS Description was implemented using Python Programming Successfully.
